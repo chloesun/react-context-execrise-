@@ -1,3 +1,5 @@
 import React from 'react';
 
-export default React.createContext();
+const context = React.createContext('dutch');
+console.log(context);
+export default context;
